@@ -1,5 +1,7 @@
 import requests
-from RegularExpression import find_password_in_text
+from RegularExpression import find_password_in_text, pattern
+import re
+
 
 def find_passwords_on_webpage(url):
     try:
@@ -8,10 +10,14 @@ def find_passwords_on_webpage(url):
 
         response = requests.get(url, timeout=10)
         response.raise_for_status()
+        text = response.text
+        pattern = r'Password: (?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@#$%^&+=_-]).{8,} ~'
+        if not isinstance(text, str):
+            raise TypeError("Provided text must be a string.")
+        passwords = re.findall(pattern, text)
 
-        passwords = find_password_in_text(response.text)
         if passwords:
-            print("Found passwords on the page:", passwords)
+            print("Found passwords on the page:", set(passwords))
         else:
             print("No passwords addresses were found on the page.")
 
