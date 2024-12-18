@@ -1,5 +1,12 @@
 import re
 
+""" Пароль должен содержать:
+    минимум 8 символов
+    минимум одну заглавную букву
+    минимум одну строчную букву
+    минимум одну цифру
+    минимум один специальный символ (например, @, #, $) """
+
 pattern = r"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@#$%^&+=]).{8,}$"
 
 def is_valid_password(password: str):
@@ -9,7 +16,7 @@ def is_valid_password(password: str):
 
 def find_password_in_text(text: str):
     if not isinstance(text, str):
-        raise TypeError("The provided text must be a string.")
+        raise TypeError("Provided text must be a string.")
     passwords = re.findall(pattern, text)
     return passwords
 
