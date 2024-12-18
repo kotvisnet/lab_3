@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="474312eb-11b4-421f-9614-57b92559c9aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RegularExpression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="474312eb-11b4-421f-9614-57b92559c9aa" name="Changes" comment="add UserInput">
+      <change afterPath="$PROJECT_DIR$/fileSearch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegularExpression.py" beforeDir="false" afterPath="$PROJECT_DIR$/RegularExpression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/passwords.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/passwords.txt" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -33,14 +37,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/eldor/PycharmProjects/lab4-master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.RegularExpression.executor": "Run",
+    "Python.UserInput.executor": "Run",
+    "Python.fileSearch.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/eldor/PycharmProjects/lab4-master"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -57,6 +64,37 @@
       <option name="presentableId" value="Default" />
       <updated>1734468451779</updated>
     </task>
+    <task id="LOCAL-00001" summary="Re">
+      <option name="closed" value="true" />
+      <created>1734538950590</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734538950590</updated>
+    </task>
+    <task id="LOCAL-00002" summary="re expression">
+      <option name="closed" value="true" />
+      <created>1734539199455</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734539199455</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add UserInput">
+      <option name="closed" value="true" />
+      <created>1734541212416</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734541212416</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Re" />
+    <MESSAGE value="re expression" />
+    <MESSAGE value="add UserInput" />
+    <option name="LAST_COMMIT_MESSAGE" value="add UserInput" />
   </component>
 </project>

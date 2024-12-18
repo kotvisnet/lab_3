@@ -7,7 +7,7 @@ import re
     минимум одну цифру
     минимум один специальный символ (например, @, #, $) """
 
-pattern = r"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@#$%^&+=]).{8,}$"
+pattern = r"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@#$%^&+=_]).{8,}$"
 
 def is_valid_password(password: str):
     if not isinstance(password, str):
